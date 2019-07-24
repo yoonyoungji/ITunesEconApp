@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EAAC8B50F379CAA5E4AB5D6AB547882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		102DE0E25DC4750AC9D1FD7F5373F062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1715B371CC923DB94D3177BBDF5ABBBC /* Pods-KakaoEconAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCD3F41B497387A75C452239641603A /* Pods-KakaoEconAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303C5EAB970AA128AD0062358BA8DF63 /* Pods-KakaoEconAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCB9E3C4300C331B09FFB7A98B43405 /* Pods-KakaoEconAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBE4FC6EDB0E9B11D5F4A6B9B28EC2F /* Pods-KakaoEconApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2F47790D85D065C2B378ACBE22B731 /* Pods-KakaoEconApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		558B2D2021D6985660B663DA95593C34 /* Pods-KakaoEconAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A997CC1F87928F1AF4848F3E3B49993 /* Pods-KakaoEconAppUITests-dummy.m */; };
+		75E551D22257A10C9D2E0A590D093800 /* Pods-KakaoEconApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCC01E456AE71C27D6F7A3855C529EF /* Pods-KakaoEconApp-dummy.m */; };
+		8C8B858E847DAF0D10257FF6C96EA5AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A83419546120F10B73E294B84CD17148 /* Pods-KakaoEconAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE03AD88C0409CEF818C1D1D05547AA4 /* Pods-KakaoEconAppTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		311036D90AA1D8C581E2821BADDFC9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF85662CBBCCFE7A550627A5CE205E6;
+			remoteInfo = "Pods-KakaoEconApp";
+		};
+		7D0836D6B022221D49C30B6823C727D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF85662CBBCCFE7A550627A5CE205E6;
+			remoteInfo = "Pods-KakaoEconApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4861D850A80088C82808AB03692B7A /* Pods-KakaoEconAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KakaoEconAppUITests-Info.plist"; sourceTree = "<group>"; };
+		1A9C6A1F25C1C695AFBF76643D9C4ECC /* Pods-KakaoEconAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KakaoEconAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3DC254B15238338C9F619D306F05A577 /* Pods-KakaoEconAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KakaoEconAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E78070253C276B98A4AD56D9C17E247 /* Pods-KakaoEconApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KakaoEconApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		445AEF77A84ED5AA9057BD0773B59480 /* Pods_KakaoEconAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KakaoEconAppUITests.framework; path = "Pods-KakaoEconAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5EFE8303CFB139E196990FF17351F9 /* Pods_KakaoEconApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KakaoEconApp.framework; path = "Pods-KakaoEconApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		521234517ECD656AA4B87AC4A2A91DC5 /* Pods-KakaoEconApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KakaoEconApp.modulemap"; sourceTree = "<group>"; };
+		5366C511C7122F8BF318C926DB79CCD9 /* Pods-KakaoEconApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KakaoEconApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B93AAC5DD81B91548869A9109224649 /* Pods_KakaoEconAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KakaoEconAppTests.framework; path = "Pods-KakaoEconAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		676F1CA0328458FA7271CF74C3CEF621 /* Pods-KakaoEconAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KakaoEconAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81FD1F78E0E97947B1EEFC305E3501D4 /* Pods-KakaoEconAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KakaoEconAppUITests.modulemap"; sourceTree = "<group>"; };
+		83179A6F10B10408FCEDE3991693FD8F /* Pods-KakaoEconApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KakaoEconApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8662B87EC3540BFCD277CD44559D04C9 /* Pods-KakaoEconAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KakaoEconAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		969CA729644099D408224734A5E23B27 /* Pods-KakaoEconApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KakaoEconApp.release.xcconfig"; sourceTree = "<group>"; };
+		9A8F0F36C4A9F419992FE8052F61A0B0 /* Pods-KakaoEconApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KakaoEconApp-Info.plist"; sourceTree = "<group>"; };
+		9A997CC1F87928F1AF4848F3E3B49993 /* Pods-KakaoEconAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KakaoEconAppUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA6E2FC7B6667FFB3BD54E540F9084C5 /* Pods-KakaoEconAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KakaoEconAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF2F47790D85D065C2B378ACBE22B731 /* Pods-KakaoEconApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KakaoEconApp-umbrella.h"; sourceTree = "<group>"; };
+		CFCD3F41B497387A75C452239641603A /* Pods-KakaoEconAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KakaoEconAppTests-umbrella.h"; sourceTree = "<group>"; };
+		D28C33D47F3A3AFCAE4D27E458791956 /* Pods-KakaoEconAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KakaoEconAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAD9C4FBCF2C9BD37B385581A8B15989 /* Pods-KakaoEconAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KakaoEconAppTests.modulemap"; sourceTree = "<group>"; };
+		EBCC01E456AE71C27D6F7A3855C529EF /* Pods-KakaoEconApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KakaoEconApp-dummy.m"; sourceTree = "<group>"; };
+		EDCB9E3C4300C331B09FFB7A98B43405 /* Pods-KakaoEconAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KakaoEconAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		EE03AD88C0409CEF818C1D1D05547AA4 /* Pods-KakaoEconAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KakaoEconAppTests-dummy.m"; sourceTree = "<group>"; };
+		EE9A9C5FF945E445F21FBEB23A7A4D49 /* Pods-KakaoEconAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KakaoEconAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F565A04713F862DAF7FE2EB807792F86 /* Pods-KakaoEconAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KakaoEconAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FCB3680303F7BC709BC0D535EB344E7D /* Pods-KakaoEconAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KakaoEconAppTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23EA9CB4A692150EB3B4EEA77E39F046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAAC8B50F379CAA5E4AB5D6AB547882 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7331F70C6FA65225F23959799A95B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102DE0E25DC4750AC9D1FD7F5373F062 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAED2046D7963FC7A59E41CD5095FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8B858E847DAF0D10257FF6C96EA5AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958314BA5867AE31D8A6B65B2ACF9205 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F9DDF9779A2B86DE64597D8D18D33ED /* Pods-KakaoEconApp */,
+				AE33894521FEB2F48FB889DBFAA35537 /* Pods-KakaoEconAppTests */,
+				D8FC40F7F4C53582C444712098EBF1A9 /* Pods-KakaoEconAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F9DDF9779A2B86DE64597D8D18D33ED /* Pods-KakaoEconApp */ = {
+			isa = PBXGroup;
+			children = (
+				521234517ECD656AA4B87AC4A2A91DC5 /* Pods-KakaoEconApp.modulemap */,
+				3E78070253C276B98A4AD56D9C17E247 /* Pods-KakaoEconApp-acknowledgements.markdown */,
+				5366C511C7122F8BF318C926DB79CCD9 /* Pods-KakaoEconApp-acknowledgements.plist */,
+				EBCC01E456AE71C27D6F7A3855C529EF /* Pods-KakaoEconApp-dummy.m */,
+				9A8F0F36C4A9F419992FE8052F61A0B0 /* Pods-KakaoEconApp-Info.plist */,
+				CF2F47790D85D065C2B378ACBE22B731 /* Pods-KakaoEconApp-umbrella.h */,
+				83179A6F10B10408FCEDE3991693FD8F /* Pods-KakaoEconApp.debug.xcconfig */,
+				969CA729644099D408224734A5E23B27 /* Pods-KakaoEconApp.release.xcconfig */,
+			);
+			name = "Pods-KakaoEconApp";
+			path = "Target Support Files/Pods-KakaoEconApp";
+			sourceTree = "<group>";
+		};
+		AE33894521FEB2F48FB889DBFAA35537 /* Pods-KakaoEconAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD9C4FBCF2C9BD37B385581A8B15989 /* Pods-KakaoEconAppTests.modulemap */,
+				D28C33D47F3A3AFCAE4D27E458791956 /* Pods-KakaoEconAppTests-acknowledgements.markdown */,
+				3DC254B15238338C9F619D306F05A577 /* Pods-KakaoEconAppTests-acknowledgements.plist */,
+				EE03AD88C0409CEF818C1D1D05547AA4 /* Pods-KakaoEconAppTests-dummy.m */,
+				FCB3680303F7BC709BC0D535EB344E7D /* Pods-KakaoEconAppTests-Info.plist */,
+				CFCD3F41B497387A75C452239641603A /* Pods-KakaoEconAppTests-umbrella.h */,
+				EE9A9C5FF945E445F21FBEB23A7A4D49 /* Pods-KakaoEconAppTests.debug.xcconfig */,
+				F565A04713F862DAF7FE2EB807792F86 /* Pods-KakaoEconAppTests.release.xcconfig */,
+			);
+			name = "Pods-KakaoEconAppTests";
+			path = "Target Support Files/Pods-KakaoEconAppTests";
+			sourceTree = "<group>";
+		};
+		BB87D9B1122402E44DE37AC6E1A5A2ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5EFE8303CFB139E196990FF17351F9 /* Pods_KakaoEconApp.framework */,
+				5B93AAC5DD81B91548869A9109224649 /* Pods_KakaoEconAppTests.framework */,
+				445AEF77A84ED5AA9057BD0773B59480 /* Pods_KakaoEconAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BB87D9B1122402E44DE37AC6E1A5A2ED /* Products */,
+				958314BA5867AE31D8A6B65B2ACF9205 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8FC40F7F4C53582C444712098EBF1A9 /* Pods-KakaoEconAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81FD1F78E0E97947B1EEFC305E3501D4 /* Pods-KakaoEconAppUITests.modulemap */,
+				676F1CA0328458FA7271CF74C3CEF621 /* Pods-KakaoEconAppUITests-acknowledgements.markdown */,
+				1A9C6A1F25C1C695AFBF76643D9C4ECC /* Pods-KakaoEconAppUITests-acknowledgements.plist */,
+				9A997CC1F87928F1AF4848F3E3B49993 /* Pods-KakaoEconAppUITests-dummy.m */,
+				0E4861D850A80088C82808AB03692B7A /* Pods-KakaoEconAppUITests-Info.plist */,
+				EDCB9E3C4300C331B09FFB7A98B43405 /* Pods-KakaoEconAppUITests-umbrella.h */,
+				8662B87EC3540BFCD277CD44559D04C9 /* Pods-KakaoEconAppUITests.debug.xcconfig */,
+				BA6E2FC7B6667FFB3BD54E540F9084C5 /* Pods-KakaoEconAppUITests.release.xcconfig */,
+			);
+			name = "Pods-KakaoEconAppUITests";
+			path = "Target Support Files/Pods-KakaoEconAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		052F0AA057EC260E1A717E3FB2618E4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303C5EAB970AA128AD0062358BA8DF63 /* Pods-KakaoEconAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E85AEBF107AAD0C5B07B1C7E3E11610 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBE4FC6EDB0E9B11D5F4A6B9B28EC2F /* Pods-KakaoEconApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD54AD2D1F766E1AA32156B65BAD869 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1715B371CC923DB94D3177BBDF5ABBBC /* Pods-KakaoEconAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4EF85662CBBCCFE7A550627A5CE205E6 /* Pods-KakaoEconApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F4AE6595AEBAEAE3641A3F8E05C85B5 /* Build configuration list for PBXNativeTarget "Pods-KakaoEconApp" */;
+			buildPhases = (
+				9E85AEBF107AAD0C5B07B1C7E3E11610 /* Headers */,
+				556B293E8FFDA984ADCC439F057FF308 /* Sources */,
+				E7331F70C6FA65225F23959799A95B89 /* Frameworks */,
+				567A942656378904A1ED7C6094B4F28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KakaoEconApp";
+			productName = "Pods-KakaoEconApp";
+			productReference = 4A5EFE8303CFB139E196990FF17351F9 /* Pods_KakaoEconApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E997CA83DA54D391A85F1BC8AD96CF4 /* Pods-KakaoEconAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F698EFBC61F753ADDD5CF339AB0D98BF /* Build configuration list for PBXNativeTarget "Pods-KakaoEconAppTests" */;
+			buildPhases = (
+				FBD54AD2D1F766E1AA32156B65BAD869 /* Headers */,
+				F9E25D80619A4CB01C0B8C8F2C5B38B6 /* Sources */,
+				23EA9CB4A692150EB3B4EEA77E39F046 /* Frameworks */,
+				5308F1FE137E45988BEAA37B0697B478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64C2B0C8BDCCCEAA91AAAA09094094E /* PBXTargetDependency */,
+			);
+			name = "Pods-KakaoEconAppTests";
+			productName = "Pods-KakaoEconAppTests";
+			productReference = 5B93AAC5DD81B91548869A9109224649 /* Pods_KakaoEconAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D9FE4B6175BE34613AA5064EC458417 /* Pods-KakaoEconAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B784EC051FF210D2D0C6B489384AC11 /* Build configuration list for PBXNativeTarget "Pods-KakaoEconAppUITests" */;
+			buildPhases = (
+				052F0AA057EC260E1A717E3FB2618E4D /* Headers */,
+				5FAC56EEC512227BFB8908BB29A64EC2 /* Sources */,
+				FAAED2046D7963FC7A59E41CD5095FB7 /* Frameworks */,
+				7BF999A3747DDC6CA633901E8001EE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B879932A1ABE3C7AFE4006C8EFC17DD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-KakaoEconAppUITests";
+			productName = "Pods-KakaoEconAppUITests";
+			productReference = 445AEF77A84ED5AA9057BD0773B59480 /* Pods_KakaoEconAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BB87D9B1122402E44DE37AC6E1A5A2ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EF85662CBBCCFE7A550627A5CE205E6 /* Pods-KakaoEconApp */,
+				7E997CA83DA54D391A85F1BC8AD96CF4 /* Pods-KakaoEconAppTests */,
+				8D9FE4B6175BE34613AA5064EC458417 /* Pods-KakaoEconAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5308F1FE137E45988BEAA37B0697B478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567A942656378904A1ED7C6094B4F28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF999A3747DDC6CA633901E8001EE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556B293E8FFDA984ADCC439F057FF308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E551D22257A10C9D2E0A590D093800 /* Pods-KakaoEconApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAC56EEC512227BFB8908BB29A64EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558B2D2021D6985660B663DA95593C34 /* Pods-KakaoEconAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E25D80619A4CB01C0B8C8F2C5B38B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83419546120F10B73E294B84CD17148 /* Pods-KakaoEconAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B879932A1ABE3C7AFE4006C8EFC17DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KakaoEconApp";
+			target = 4EF85662CBBCCFE7A550627A5CE205E6 /* Pods-KakaoEconApp */;
+			targetProxy = 7D0836D6B022221D49C30B6823C727D4 /* PBXContainerItemProxy */;
+		};
+		F64C2B0C8BDCCCEAA91AAAA09094094E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KakaoEconApp";
+			target = 4EF85662CBBCCFE7A550627A5CE205E6 /* Pods-KakaoEconApp */;
+			targetProxy = 311036D90AA1D8C581E2821BADDFC9F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B1F13D49B97FF90469FE040925F8D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		59F0F6B53A20F391AC0A01C236E8115A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6E2FC7B6667FFB3BD54E540F9084C5 /* Pods-KakaoEconAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KakaoEconAppUITests/Pods-KakaoEconAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KakaoEconAppUITests/Pods-KakaoEconAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AD77391738DA0C114D1C1BD7EBF1FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F565A04713F862DAF7FE2EB807792F86 /* Pods-KakaoEconAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KakaoEconAppTests/Pods-KakaoEconAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KakaoEconAppTests/Pods-KakaoEconAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E1C0556FCE65D7F523F71D5BC27904E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8662B87EC3540BFCD277CD44559D04C9 /* Pods-KakaoEconAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KakaoEconAppUITests/Pods-KakaoEconAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KakaoEconAppUITests/Pods-KakaoEconAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A17B147DE1C3CC28BE2A37F675126DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969CA729644099D408224734A5E23B27 /* Pods-KakaoEconApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KakaoEconApp/Pods-KakaoEconApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KakaoEconApp/Pods-KakaoEconApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3ABC5C2F7AC40BD69FA8E920D77BEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83179A6F10B10408FCEDE3991693FD8F /* Pods-KakaoEconApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KakaoEconApp/Pods-KakaoEconApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KakaoEconApp/Pods-KakaoEconApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8EFA68AC855A5B2B43BF716E27BD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BBB8253C3427C654BC4AE1534605720B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9A9C5FF945E445F21FBEB23A7A4D49 /* Pods-KakaoEconAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KakaoEconAppTests/Pods-KakaoEconAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KakaoEconAppTests/Pods-KakaoEconAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F4AE6595AEBAEAE3641A3F8E05C85B5 /* Build configuration list for PBXNativeTarget "Pods-KakaoEconApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3ABC5C2F7AC40BD69FA8E920D77BEC6 /* Debug */,
+				A17B147DE1C3CC28BE2A37F675126DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EFA68AC855A5B2B43BF716E27BD98D /* Debug */,
+				4B1F13D49B97FF90469FE040925F8D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B784EC051FF210D2D0C6B489384AC11 /* Build configuration list for PBXNativeTarget "Pods-KakaoEconAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1C0556FCE65D7F523F71D5BC27904E /* Debug */,
+				59F0F6B53A20F391AC0A01C236E8115A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F698EFBC61F753ADDD5CF339AB0D98BF /* Build configuration list for PBXNativeTarget "Pods-KakaoEconAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB8253C3427C654BC4AE1534605720B /* Debug */,
+				7AD77391738DA0C114D1C1BD7EBF1FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
