@@ -6,6 +6,7 @@ target 'KakaoEconApp' do
   use_frameworks!
 
   # Pods for KakaoEconApp
+	pod 'NMapsMap'
 
   target 'KakaoEconAppTests' do
     inherit! :search_paths
